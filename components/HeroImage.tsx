@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 
 export const HeroImage = () => {
     return (
@@ -9,11 +9,11 @@ export const HeroImage = () => {
                 width: 200,
             }}
         >
-            <Image //
-                fill
+            <img //
+                // fill
                 src="/images/guitar.jpg"
                 alt="guitar image"
-                priority={true}
+                // priority={true}
             />
         </section>
     );
