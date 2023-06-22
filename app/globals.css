@@ -21,3 +21,39 @@
 
     background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 } */
+
+span.c {
+    font-weight: bold;
+    /* color: #2159d6; */
+    color: white;
+}
+
+.transpose-keys {
+    margin: 10px 0;
+    overflow: auto;
+    font: normal 11px sans-serif;
+}
+.transpose-keys a {
+    display: block;
+    float: left;
+    width: 2.25em;
+    text-align: center;
+    margin: 0 0.25em 0.25em 0;
+    color: #333;
+    background: #eee;
+    text-decoration: none;
+    padding: 0.4em 0;
+    border: solid 1px transparent;
+    outline: none;
+}
+.transpose-keys a.selected {
+    background: #2159d6;
+    color: #fff;
+}
+
+.song-text,
+.song-text * {
+    /* font-family: "monospace" !important; */
+    /* white-space: pre; */
+    font-family: "Roboto Mono", monospace !important;
+}

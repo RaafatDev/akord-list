@@ -24,6 +24,9 @@ export function getSortedSongsData() {
             id,
             title: matterResult.data.title,
             key: matterResult.data.key,
+            artist: matterResult.data.artist,
+            artistCover: matterResult.data.artistCover,
+
             // data: matterResult.data
         };
 
@@ -53,6 +56,8 @@ export async function getSongData(id: string) {
         title: matterResult.data.title,
         key: matterResult.data.key,
         contentHtml,
+        artist: matterResult.data.artist,
+        artistCover: matterResult.data.artistCover,
     };
 
     // Combine the data with the id

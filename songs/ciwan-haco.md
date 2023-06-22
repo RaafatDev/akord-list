@@ -1,6 +1,8 @@
 ---
 title: "hevala evindar"
-key: "Bm"
+artist: "Ciwan Haco"
+artistCover: "Bave Filanoo"
+key: "D"
 ---
 
 ```
@@ -14,7 +16,7 @@ _ Hene gelek wekì me
 Belkì zêdetir ji me, zêdetir ji me
      Em         D        A
 Hene gelek wekì me, wekì me
- G            F#m(F#)        Bm
+ G            F#m            Bm
 Belkì zêdetir ji me, zêdetir ji me
 
 ```
