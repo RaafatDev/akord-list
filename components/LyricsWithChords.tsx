@@ -1,7 +1,7 @@
 "use client";
+import React from "react";
 import { transpose } from "@/utils/transposer";
 // import { TransposeTest } from "@/components/TransposerTest";
-import React from "react";
 
 //todo: write a function to figure out the key of the song !!!
 //todo: write a function to figure out the key of the song !!!
@@ -34,10 +34,13 @@ export const LyricsWithChords = (props: Props) => {
         .replaceAll("<pre>", "")
         .replaceAll("</pre>", "");
 
+    // const options = { key: songKey ?? getSongKey() };
+
+    // return <TransposeTest contentString={contentString} options={options} />;
+
     return (
         <pre className="song-text" ref={preRef} style={{ overflow: "auto" }}>
             {contentString}
         </pre>
-        // <TransposeTest contentString={contentString} options={options} />
     );
 };

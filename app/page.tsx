@@ -1,4 +1,4 @@
-import { Song } from "@/components/Song";
+import { SongsList } from "@/components/SongsList";
 
 export default function Home() {
     return (
@@ -6,7 +6,7 @@ export default function Home() {
         <main className="px-6 mx-auto">
             <p className="mt-12 mb-12 text-3xl text-center dark:text-white">Home Page</p>
 
-            <Song />
+            <SongsList />
         </main>
     );
 }

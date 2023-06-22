@@ -1,7 +1,7 @@
 import { getSortedSongsData } from "@/lib/song";
 import ListItem from "./ListItem";
 
-export const Song = () => {
+export const SongsList = () => {
     const songs = getSortedSongsData();
 
     return (
